@@ -1,0 +1,17 @@
+.bg_meli
+{
+  background-color: #ffe600 !important;
+}
+
+.form-control{
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.form-control::placeholder{
+  font-size: 14px;
+}
+
+.input-group-text{
+  border-color: transparent;
+}

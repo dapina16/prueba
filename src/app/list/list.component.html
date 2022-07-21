@@ -1,0 +1,27 @@
+<app-search (list)="showPueblo($event)"></app-search>
+<div class="container-sm container1 pt-3 pb-3">
+  <span class="navbar-text">
+   Detalle > busqueda > uno
+  </span>
+</div>
+
+<nav class="navbar navbar-expand-lg container">
+  <div class="container-sm ">
+    <div class="row align-items-start w-100">
+      <div class="col-12 pb-3" *ngFor="let item of list">
+        <div class="div_cursor" (click)="detail(item.id)">
+          <div class="col">
+            <img src="{{item.picture}}" class="rounded float-start img_articulo" alt="img">
+          </div>
+          <div class="col">
+            <label class="label_valor pb-2 pt-5">${{item.amount}}</label>
+            <img src="../../assets/images/shipping.png" *ngIf="item.free_shipping" class="rounded pb-2 px-2" alt="img">
+            <label class="label_lugar aling pt-5">{{item.address}}</label><br>
+            <label class="label_des">{{item.title}}</label><br>
+            <label class="label_des">{{item.condition}}</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

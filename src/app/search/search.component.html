@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-lg bg_meli">
+  <div class="container-md p-2">
+    <img src="../../assets/images/logo.png" class="rounded" alt="Logo">
+    <form [formGroup]="formSearch"  class="container-fluid">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Nunca dejes de buscar" formControlName="query" (change)=" changeSearch()">
+        <span class="input-group-text" id="basic-addon1"><img src="../../assets/images/search.png" class="rounded" alt="Logo"></span>
+      </div>
+    </form>
+  </div>
+</nav>
+

@@ -1,0 +1,37 @@
+.container{
+  background-color: white;
+}
+
+.container1{
+  background-color: #eeee !important;
+}
+
+.navbar-text{
+ font-size: 14px;
+}
+.label_des{
+  font-size: 18px;
+}
+
+.label_valor{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label_lugar{
+  font-size: 12px;
+}
+
+.aling{
+  margin-right: auto;
+  float: right;
+}
+.img_articulo{
+  width: 180px;
+  margin-right: 20px;
+}
+
+.div_cursor{
+  cursor: pointer;
+}
+

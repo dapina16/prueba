@@ -1,0 +1,45 @@
+.container{
+  background-color: white;
+}
+
+.container1{
+  background-color: #eeee !important;
+}
+
+.img_size{
+  width: 500px;
+  height: 500px;
+}
+
+.label_des{
+  font-size: 16px;
+  padding-right: 271px;
+}
+
+.label_nom{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.label_vendidos{
+  font-size: 14px;
+  display: initial;
+}
+.label_nombre{
+  font-size: 24px;
+  display: initial;
+}
+.label_valor{
+  font-size: 46px;
+  display: initial;
+}
+
+.text_valor{
+  text-align: right;
+  padding: 95px 95px 90px 0px;
+}
+
+.btn_comprar{
+  padding: 0.5rem 2rem;
+  box-shadow: none;
+}

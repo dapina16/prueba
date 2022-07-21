@@ -1,0 +1,38 @@
+
+<app-search></app-search>
+<div class="container-sm container1 pt-3 pb-3">
+  <span class="navbar-text">
+   Detalle > busqueda > uno
+  </span>
+</div>
+
+<nav class="navbar navbar-expand-lg pb-0">
+  <div class="container-sm container">
+    <div class="row w-100">
+        <div class="col">
+          <img src='{{obj?.picture}}' class="rounded img_size" alt="articulo" >
+        </div>
+        <div class="col text_valor">
+          <div class="col">
+            <label class="label_vendidos pb-5">{{obj?.condition}} - {{obj?.sold_quantity}} vendidos</label>
+          </div>
+          <div class="col">
+            <label class="label_nombre pb-5">{{obj?.title}}</label>
+          </div>
+          <div class="col">
+            <label class="label_valor pb-5">${{obj?.price}}</label>
+          </div>
+          <div class="pt-4">
+            <button type="button" class="btn btn-lg btn_comprar btn-primary">Comprar</button>
+          </div>
+        </div>
+    </div>
+  </div>
+</nav>
+
+  <div class="container-sm container">
+    <div class="col-12 p-4">
+      <label class="label_nom pb-4">Descripcion del producto</label>
+      <label class="label_des">{{obj?.description}}</label>
+    </div>
+  </div>
